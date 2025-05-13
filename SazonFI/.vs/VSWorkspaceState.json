@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api",
+    "\\api\\migrations",
+    "\\negocios",
+    "\\templates",
+    "\\templates\\cliente",
+    "\\templates\\negocio",
+    "\\templates\\productos",
+    "\\usuarios",
+    "\\usuarios\\templates",
+    "\\usuarios\\templates\\usuarios"
+  ],
+  "SelectedNode": "\\templates\\cliente\\cliente.html",
+  "PreviewInSolutionExplorer": false
+}
