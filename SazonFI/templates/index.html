@@ -1,0 +1,96 @@
+﻿{% extends 'base.html' %}
+
+{% block content %}
+<div id="app">
+    <h1>Bienvenido a SazonFI</h1>
+
+    <div class="container mt-4">
+        <h2>Negocios Disponibles</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4" v-for="negocio in negocios" :key="negocio.id">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" v-text="negocio.nombre"></h5>
+                        <p class="card-text" v-text="negocio.descripcion"></p>
+                        <button @click="verProductos(negocio.id)" class="btn btn-primary">Ver Productos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p v-if="!isAuthenticated">
+        Por favor, <a href="/login/">inicia sesion</a> o <a href="/registro/">registrate</a>.
+    </p>
+    <p v-else>
+        Bienvenido, {{ username }}! Redirigiendo...
+    </p>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            isAuthenticated: false,
+            username: '',
+            rol: '',
+            token: localStorage.getItem('token'),
+            storedRol: localStorage.getItem('rol'),
+            negocios: []
+        },
+        mounted() {
+            this.checkAuthentication();
+            this.fetchNegocios();
+        },
+        methods: {
+            checkAuthentication() {
+                if (this.token && this.storedRol) {
+                    this.isAuthenticated = true;
+                    try {
+                        const payload = JSON.parse(atob(this.token.split('.')[1]));
+                        this.username = payload.username;
+                    } catch (error) {
+                        this.username = 'Usuario';
+                    }
+                    this.rol = this.storedRol;
+                    this.redirectToCorrectPage();
+                } else {
+                    this.isAuthenticated = false;
+                }
+            },
+            redirectToCorrectPage() {
+                setTimeout(() => {
+                    if (this.rol === 'cliente') {
+                        window.location.href = '/cliente/';
+                    } else if (this.rol === 'negocio') {
+                        window.location.href = '/negocio/';
+                    } else {
+                        window.location.href = '/';
+                    }
+                }, 1000);
+            },
+            login() {
+                window.location.href = '/login/';
+            },
+            registro() {
+                window.location.href = '/registro/';
+            },
+            fetchNegocios() {
+                fetch('/api/negocios/')
+                    .then(response => response.json())
+                    .then(data => {
+                        this.negocios = data;
+                        console.log('Datos de negocios:', JSON.stringify(data, null, 2));
+                    })
+                    .catch(error => console.error('Error:', error));
+            },
+            verProductos(negocioId) {
+                window.location.href = `/negocios/${negocioId}/productos/`;
+            }
+        }
+    });
+</script>
+{% endblock %}  
