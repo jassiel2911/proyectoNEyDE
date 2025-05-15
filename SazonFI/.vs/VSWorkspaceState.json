@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\negocios",
+    "\\SazonFI",
+    "\\templates",
+    "\\templates\\carrito",
+    "\\templates\\cliente",
+    "\\templates\\negocio",
+    "\\usuarios",
+    "\\usuarios\\templates",
+    "\\usuarios\\templates\\usuarios"
+  ],
+  "SelectedNode": "\\db.sqlite3",
+  "PreviewInSolutionExplorer": false
+}
