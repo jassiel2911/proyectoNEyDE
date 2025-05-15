@@ -9,12 +9,14 @@ Verificación de la versión instalada [En terminal]:
 > pip install djangorestframework
 > pip install djangorestframework.authtoken  
 > pip install rest_framework_nested
-
+> pip install Pillow
+> pip install drf-nested-routers
 
 * Comandos de Django (manage.py)
 > python manage.py startproject <nombre_del_proyecto>: Crea un nuevo proyecto Django.
 > python manage.py startapp <nombre_de_la_aplicacion>: Crea una nueva aplicación Django dentro de un proyecto.
-> python manage.py runserver: Inicia el servidor de desarrollo de Django.
+> python manage.py r
+> unserver: Inicia el servidor de desarrollo de Django.
 > python manage.py makemigrations: Crea nuevas migraciones basadas en los cambios en los modelos.
 > python manage.py migrate: Aplica las migraciones pendientes a la base de datos.
 > python manage.py createsuperuser: Crea un superusuario para acceder al panel de administración de Django.
