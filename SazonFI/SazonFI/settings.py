@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'usuarios',
     'negocios',
     'productos',
-    'pedidos',
+    'pedidos', # Asumo que esta app existe o la crearas para los modelos de Pedido
     'api',
     'carritos', 
 ]
@@ -52,28 +52,28 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',  # Esta línea es crucial
+    'django.contrib.auth.middleware.AuthenticationMiddleware', # Esta linea es crucial
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
 ROOT_URLCONF = 'SazonFI.urls'
 
-TEMPLATES = [
-        {
-            'BACKEND': 'django.template.backends.django.DjangoTemplates',
-            'DIRS': [BASE_DIR / 'templates'],  # Apunta al directorio 'templates' principal
-            'APP_DIRS': True,  # Importante: Permite a Django buscar plantillas dentro de las apps
-            'OPTIONS': {
-                'context_processors': [
-                    'django.template.context_processors.debug',
-                    'django.template.context_processors.request',
-                    'django.contrib.auth.context_processors.auth',
-                    'django.contrib.messages.context_processors.messages',
-                ],
-            },
+TEMPLATES = [ # Asegurate de tener esto configurado correctamente
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR / 'templates'], # Si usas un directorio templates a nivel de proyecto
+        'APP_DIRS': True, # Importante: Para que Django busque templates dentro de las apps
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
         },
-    ]
+    },
+]
 
 WSGI_APPLICATION = 'SazonFI.wsgi.application'
 
@@ -87,7 +87,8 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-AUTH_USER_MODEL = 'usuarios.Usuario'
+
+AUTH_USER_MODEL = 'usuarios.Usuario' # Asegurate que tu app 'usuarios' tenga un modelo 'Usuario'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
@@ -111,67 +112,65 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'es-mx' # Cambiado a español de Mexico como ejemplo
+TIME_ZONE = 'America/Mexico_City' # Cambiado a una zona horaria de Mexico
 
 USE_I18N = True
-
-USE_TZ = True
+USE_TZ = True # Recomendado mantener en True
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/' # La URL base para acceder a los archivos estaticos
+STATICFILES_DIRS = [
+    BASE_DIR / 'static', # Si tienes un directorio static a nivel de proyecto
+]
+# STATIC_ROOT = BASE_DIR / 'staticfiles_production' # Descomenta y configura para produccion (collectstatic)
+
+
+# Media files (User-uploaded content like images)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATIC_URL = '/static/'  #  La URL base para acceder a los archivos estáticos
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'static',  #  Si tienes un directorio static a nivel de proyecto
-]
-
+# Django REST Framework settings
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.SessionAuthentication', # Mantenida por si accedes a la API desde el navegador logueado
     ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly', # Permite lectura a cualquiera, escritura a autenticados
     ]
 }
 
-
-TEMPLATES = [ # Asegúrate de tener esto configurado correctamente
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'], #  Si usas un directorio templates a nivel de proyecto
-        'APP_DIRS': True, #  Importante:  Para que Django busque templates dentro de las apps
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
-]
-
+# Session settings (ya las tenias, solo las agrupe un poco)
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_NAME = 'sessionid'
 SESSION_COOKIE_AGE = 60 * 60 * 24 * 7  # 1 week (in seconds)
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
-SESSION_SAVE_EVERY_REQUEST = False
-SESSION_COOKIE_SECURE = False  # Cambiar a True en producción (HTTPS)
+SESSION_SAVE_EVERY_REQUEST = False # Mejor para rendimiento, guardar solo si hay cambios
+SESSION_COOKIE_SECURE = False  # Cambiar a True en produccion (HTTPS)
 SESSION_COOKIE_HTTPONLY = True
-SESSION_COOKIE_SAMESITE = 'Lax'  # O 'Strict' o 'None' si es necesario
+SESSION_COOKIE_SAMESITE = 'Lax'
 
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+# --- URL DE LOGIN ---
+# Esto le dice a Django a donde redirigir si se requiere login
+# y el usuario no esta autenticado. Usa el nombre de tu URL de login.
+LOGIN_URL = 'login' # O '/login/' si no usas el nombre de la ruta
+
+# --- URL DE REDIRECCION DESPUES DEL LOGIN ---
+# A donde ir despues de un login exitoso si no hay un parametro 'next'.
+# Apuntar a la raiz ('/') es una buena opcion si tu vista raiz maneja la logica de roles.
+LOGIN_REDIRECT_URL = '/'
+
+# --- URL DE REDIRECCION DESPUES DEL LOGOUT ---
+LOGOUT_REDIRECT_URL = '/' # A donde ir despues de cerrar sesion
