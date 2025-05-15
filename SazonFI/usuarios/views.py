@@ -7,3 +7,4 @@ class UsuarioViewSet(viewsets.ModelViewSet):
     queryset = Usuario.objects.all()
     serializer_class = UsuarioSerializer
     permission_classes = [AllowAny]  #  Para permitir el registro de nuevos usuarios
+

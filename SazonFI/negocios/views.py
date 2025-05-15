@@ -1,103 +1,128 @@
+# negocios/views.py
+
+from django.shortcuts import render, get_object_or_404
+from django.contrib.auth import get_user_model
 from rest_framework import viewsets, permissions, status
 from rest_framework.response import Response
-from rest_framework.authentication import SessionAuthentication
-from django.contrib.auth import get_user_model
+from rest_framework.authentication import SessionAuthentication, TokenAuthentication
 from rest_framework.decorators import action
+from rest_framework.exceptions import PermissionDenied
+
 from .models import Negocio
 from productos.models import Producto
 from .serializers import NegocioSerializer
 from productos.serializers import ProductoSerializer
 
-User = get_user_model()
+User = get_user_model() # Esto obtendra tu modelo de Usuario (sea el default o uno personalizado)
 
 class NegocioViewSet(viewsets.ModelViewSet):
     serializer_class = NegocioSerializer
-    authentication_classes = [SessionAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    authentication_classes = [TokenAuthentication, SessionAuthentication] 
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly] 
 
     def get_queryset(self):
-        return Negocio.objects.filter(usuario=self.request.user)
+        user = self.request.user
+        action = self.action
+        
+        # Intenta obtener el rol de forma segura.
+        # Si tu campo de rol se llama diferente (ej. 'tipo_usuario'), cambialo aqui.
+        user_rol_value = getattr(user, 'rol', 'ROL_NO_DEFINIDO_EN_USUARIO') 
+
+        print(f"--- DEBUG: NegocioViewSet.get_queryset() ---")
+        print(f"--- Action: {action}")
+        print(f"--- User: {user}")
+        print(f"--- Authenticated: {user.is_authenticated}")
+        print(f"--- Valor del atributo 'rol' del usuario: '{user_rol_value}'") 
+        print(f"-------------------------------------------")
+
+
+        if action == 'list': # Esto es para GET /api/negocios/
+            # ----- ESTA ES LA CONDICION CRUCIAL -----
+            # Asegurate de que 'user.rol' sea el nombre correcto del atributo en tu modelo User
+            # y que 'negocio' sea el valor exacto para los usuarios de tipo negocio.
+            if user.is_authenticated and hasattr(user, 'rol') and user.rol == 'negocio':
+                print(f"--- NegocioViewSet.get_queryset() [LISTA PARA DUENO DE NEGOCIO] - Usuario: {user.username}, Rol: {user_rol_value} - Filtrando por sus negocios.")
+                return Negocio.objects.filter(usuario=user)
+            else:
+                # Para la lista publica (cliente.html, index.html, o usuarios no autenticados/no-negocio)
+                print(f"--- NegocioViewSet.get_queryset() [LISTA PUBLICA] - Usuario: {user.username if user.is_authenticated else 'Anonimo'}, Rol: {user_rol_value} - Devolviendo todos los negocios.")
+                return Negocio.objects.all() 
+        elif user.is_authenticated:
+            # Para acciones de detalle (retrieve, update, delete)
+            print(f"--- NegocioViewSet.get_queryset() [DETALLE/ESCRITURA] - Usuario: {user.username} - Filtrando por sus negocios.")
+            return Negocio.objects.filter(usuario=user)
+        
+        print(f"--- NegocioViewSet.get_queryset() - Fallback (ej. no autenticado para accion no-lista) - Devolviendo queryset vacio.")
+        return Negocio.objects.none()
 
     def perform_create(self, serializer):
         serializer.save(usuario=self.request.user)
 
     def perform_update(self, serializer):
-        try:
-            instance = self.get_object()
-            if instance.usuario == self.request.user:
-                serializer.save()
-            else:
-                return Response(
-                    {"error": "No tienes permiso para actualizar este negocio."},
-                    status=status.HTTP_403_FORBIDDEN,
-                )
-        except Negocio.DoesNotExist:
-            return Response(
-                {"error": "Negocio no encontrado."}, status=status.HTTP_404_NOT_FOUND
-            )
+        instance = self.get_object() 
+        if instance.usuario != self.request.user:
+            raise PermissionDenied("No tienes permiso para actualizar este negocio.")
+        serializer.save()
 
     def perform_destroy(self, instance):
-        if instance.usuario == self.request.user:
-            instance.delete()
-        else:
-            return Response(
-                {"error": "No tienes permiso para eliminar este negocio."},
-                status=status.HTTP_403_FORBIDDEN,
-            )
-
-    @action(detail=True, methods=['get'])
-    def productos(self, request, pk=None):
-        try:
-            negocio = self.get_object()
-            if negocio.usuario == self.request.user:
-                productos = negocio.producto_set.all()
-                return Response(
-                    {"productos": [{"id": p.id, "nombre": p.nombre} for p in productos]},
-                    status=status.HTTP_200_OK,
-                )
-            else:
-                return Response(
-                    {"error": "No tienes permiso para ver los productos de este negocio."},
-                    status=status.HTTP_403_FORBIDDEN,
-                )
-        except Negocio.DoesNotExist:
-            return Response(
-                {"error": "Negocio no encontrado."}, status=status.HTTP_404_NOT_FOUND
-            )
+        if instance.usuario != self.request.user: 
+            raise PermissionDenied("No tienes permiso para eliminar este negocio.")
+        instance.delete()
 
 
-class ProductoViewSet(viewsets.ModelViewSet):
+
+class ProductoViewSet(viewsets.ModelViewSet): # ANIDADO
     serializer_class = ProductoSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    authentication_classes = [TokenAuthentication, SessionAuthentication] 
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options']
 
     def get_queryset(self):
-        negocio_id = self.kwargs.get('negocio_pk')
-        return Producto.objects.filter(negocio__id=negocio_id, negocio__usuario=self.request.user)
+        negocio_pk = self.kwargs.get('negocio_pk') 
+        if not negocio_pk:
+            return Producto.objects.none()
+        try:
+            negocio = Negocio.objects.get(pk=negocio_pk)
+        except Negocio.DoesNotExist:
+            return Producto.objects.none() 
+        return Producto.objects.filter(negocio=negocio)
+
+    def create(self, request, *args, **kwargs):
+        negocio_pk_from_url = kwargs.get('negocio_pk')
+        try:
+            Negocio.objects.get(pk=negocio_pk_from_url, usuario=request.user)
+        except Negocio.DoesNotExist:
+            raise PermissionDenied("No tienes permiso para agregar productos a este negocio o el negocio no existe.")
+        return super().create(request, *args, **kwargs)
 
     def perform_create(self, serializer):
-        negocio_id = self.kwargs.get('negocio_pk')
-        negocio = Negocio.objects.get(id=negocio_id, usuario=self.request.user)
-        serializer.save(negocio=negocio)
+        negocio_pk = self.kwargs.get('negocio_pk') 
+        try:
+            negocio = Negocio.objects.get(pk=negocio_pk, usuario=self.request.user) 
+        except Negocio.DoesNotExist:
+            raise PermissionDenied("No tienes permiso para agregar productos a este negocio o el negocio no existe.")
+        serializer.save(negocio=negocio) 
 
     def perform_update(self, serializer):
-        try:
-            producto = self.get_object()  # Esto obtiene el producto basado en el id
-            # Asegúrate de que el producto pertenece al negocio y usuario correctos
-            if producto.negocio.usuario == self.request.user:
-                serializer.save()
-            else:
-                return Response(
-                    {"error": "No tienes permiso para actualizar este producto."},
-                    status=status.HTTP_403_FORBIDDEN,
-                )
-        except Producto.DoesNotExist:
-            raise NotFound({"error": "Producto no encontrado."})  # Esto maneja correctamente el caso cuando no se encuentra el producto
+        producto = self.get_object()
+        if producto.negocio.usuario != self.request.user:
+             raise PermissionDenied("No tienes permiso para editar este producto.")
+        serializer.save()
 
     def perform_destroy(self, instance):
-        if instance.negocio.usuario == self.request.user:
-            instance.delete()
-        else:
-            return Response(
-                {"error": "No tienes permiso para eliminar este producto."},
-                status=status.HTTP_403_FORBIDDEN,
-            )
+        if instance.negocio.usuario != self.request.user:
+             raise PermissionDenied("No tienes permiso para eliminar este producto.")
+        instance.delete()
+
+# Vista HTML
+# Asegurate de que esta definicion de funcion este completa y correcta:
+def vista_html_productos_por_negocio(request, id_negocio):
+    negocio = get_object_or_404(Negocio, pk=id_negocio)
+    lista_productos = Producto.objects.filter(negocio=negocio)
+    context = {
+        'negocio': negocio,
+        'nombre_negocio': negocio.nombre,
+        'id_negocio_para_js': id_negocio,
+        'productos_list': lista_productos, 
+    }
+    return render(request, 'negocio/productos_negocio.html', context)

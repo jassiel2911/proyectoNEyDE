@@ -7,40 +7,24 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\negocio\\negocio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:negocios\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\serializers.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:negocios\\serializers.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\cliente\\cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\cliente\\cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\serializers.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:negocios\\serializers.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\models.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:negocios\\models.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:productos\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:negocios\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\serializers.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -51,16 +35,76 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:productos\\models.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:negocios\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carritos\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\negocio\\productos_negocio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\negocio\\productos_negocio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SazonFI\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\settings.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SazonFI\\settings.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:productos\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\tests.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:productos\\tests.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\serializers.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carritos\\serializers.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\carrito\\carrito.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\carrito\\carrito.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\models.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carritos\\models.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:productos\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\admin.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carritos\\admin.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:carritos\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:negocios\\urls.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\productos\\productos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\productos\\productos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\wsgi.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SazonFI\\wsgi.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\settings.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SazonFI\\settings.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\usuarios\\models.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -115,10 +159,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:usuarios\\admin.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\cliente\\cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\cliente\\cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\usuarios\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:usuarios\\views.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
@@ -130,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,67 +186,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "views.py",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\views.py",
-              "RelativeDocumentMoniker": "api\\views.py",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\views.py",
-              "RelativeToolTip": "api\\views.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\views.py",
+              "RelativeDocumentMoniker": "carritos\\views.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\views.py",
+              "RelativeToolTip": "carritos\\views.py",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-12T21:52:14.426Z",
+              "WhenOpened": "2025-05-14T17:09:14.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "serializers.py",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\serializers.py",
-              "RelativeDocumentMoniker": "productos\\serializers.py",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\serializers.py",
-              "RelativeToolTip": "productos\\serializers.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\models.py",
+              "RelativeDocumentMoniker": "negocios\\models.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\models.py",
+              "RelativeToolTip": "negocios\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-12T21:49:27.038Z",
+              "WhenOpened": "2025-05-11T17:24:00.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\models.py",
+              "RelativeDocumentMoniker": "productos\\models.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\models.py",
+              "RelativeToolTip": "productos\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-11T17:43:38.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "serializers.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\serializers.py",
+              "RelativeDocumentMoniker": "negocios\\serializers.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\serializers.py",
+              "RelativeToolTip": "negocios\\serializers.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-11T17:26:18.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "urls.py",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\urls.py",
-              "RelativeDocumentMoniker": "api\\urls.py",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\urls.py",
-              "RelativeToolTip": "api\\urls.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-12T21:45:53.159Z",
+              "Title": "cliente.html",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\cliente\\cliente.html",
+              "RelativeDocumentMoniker": "templates\\cliente\\cliente.html",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\cliente\\cliente.html",
+              "RelativeToolTip": "templates\\cliente\\cliente.html",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-08T07:58:04.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "urls.py",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\urls.py",
-              "RelativeDocumentMoniker": "negocios\\urls.py",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\urls.py",
-              "RelativeToolTip": "negocios\\urls.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-12T07:21:15.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "views.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\views.py",
               "RelativeDocumentMoniker": "negocios\\views.py",
               "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\views.py",
               "RelativeToolTip": "negocios\\views.py",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAuwGYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAcwIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-05-11T17:26:15.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\index.html",
+              "RelativeDocumentMoniker": "templates\\index.html",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\index.html",
+              "RelativeToolTip": "templates\\index.html",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAcwFkAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-08T07:04:24.748Z",
               "EditorCaption": ""
             },
             {
@@ -217,79 +283,222 @@
               "RelativeDocumentMoniker": "templates\\negocio\\negocio.html",
               "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\negocio\\negocio.html",
               "RelativeToolTip": "templates\\negocio\\negocio.html",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAwwIwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAANwBAAAAAAAAAAAkwP8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-08T07:58:12.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "models.py",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\models.py",
-              "RelativeDocumentMoniker": "negocios\\models.py",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\models.py",
-              "RelativeToolTip": "negocios\\models.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:24:00.108Z",
+              "DocumentIndex": 10,
+              "Title": "productos_negocio.html",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\negocio\\productos_negocio.html",
+              "RelativeDocumentMoniker": "templates\\negocio\\productos_negocio.html",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\negocio\\productos_negocio.html",
+              "RelativeToolTip": "templates\\negocio\\productos_negocio.html",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAcwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-14T08:18:22.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "serializers.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\serializers.py",
+              "RelativeDocumentMoniker": "productos\\serializers.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\serializers.py",
+              "RelativeToolTip": "productos\\serializers.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-12T21:49:27.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "base.html",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\base.html",
               "RelativeDocumentMoniker": "templates\\base.html",
               "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\base.html",
               "RelativeToolTip": "templates\\base.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-08T06:51:21.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\urls.py",
+              "RelativeDocumentMoniker": "SazonFI\\urls.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\urls.py",
+              "RelativeToolTip": "SazonFI\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-14T07:54:56.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "settings.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\settings.py",
+              "RelativeDocumentMoniker": "SazonFI\\settings.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\settings.py",
+              "RelativeToolTip": "SazonFI\\settings.py",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAALAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-07T06:25:50.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "views.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\views.py",
               "RelativeDocumentMoniker": "productos\\views.py",
               "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\views.py",
               "RelativeToolTip": "productos\\views.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-05-12T07:47:56.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\index.html",
-              "RelativeDocumentMoniker": "templates\\index.html",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\index.html",
-              "RelativeToolTip": "templates\\index.html",
-              "ViewState": "AgIAADYAAAAAAAAAAAAuwE4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-08T07:04:24.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "serializers.py",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\serializers.py",
-              "RelativeDocumentMoniker": "negocios\\serializers.py",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\serializers.py",
-              "RelativeToolTip": "negocios\\serializers.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "tests.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\tests.py",
+              "RelativeDocumentMoniker": "productos\\tests.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\tests.py",
+              "RelativeToolTip": "productos\\tests.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:26:18.481Z",
+              "WhenOpened": "2025-05-15T07:38:12.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "serializers.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\serializers.py",
+              "RelativeDocumentMoniker": "carritos\\serializers.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\serializers.py",
+              "RelativeToolTip": "carritos\\serializers.py",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-14T17:07:33.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "carrito.html",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\carrito\\carrito.html",
+              "RelativeDocumentMoniker": "templates\\carrito\\carrito.html",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\carrito\\carrito.html",
+              "RelativeToolTip": "templates\\carrito\\carrito.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-14T16:58:47.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\models.py",
+              "RelativeDocumentMoniker": "carritos\\models.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\models.py",
+              "RelativeToolTip": "carritos\\models.py",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-14T17:03:39.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\urls.py",
+              "RelativeDocumentMoniker": "api\\urls.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\urls.py",
+              "RelativeToolTip": "api\\urls.py",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-12T21:45:53.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "__init__.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\__init__.py",
+              "RelativeDocumentMoniker": "productos\\__init__.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\__init__.py",
+              "RelativeToolTip": "productos\\__init__.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-14T19:08:31.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "admin.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\admin.py",
+              "RelativeDocumentMoniker": "carritos\\admin.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\admin.py",
+              "RelativeToolTip": "carritos\\admin.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-14T18:31:17.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\urls.py",
+              "RelativeDocumentMoniker": "carritos\\urls.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\carritos\\urls.py",
+              "RelativeToolTip": "carritos\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-14T17:17:57.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\views.py",
+              "RelativeDocumentMoniker": "api\\views.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\views.py",
+              "RelativeToolTip": "api\\views.py",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABIAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-12T21:52:14.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\urls.py",
+              "RelativeDocumentMoniker": "negocios\\urls.py",
+              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\urls.py",
+              "RelativeToolTip": "negocios\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-12T07:21:15.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "models.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\usuarios\\models.py",
               "RelativeDocumentMoniker": "usuarios\\models.py",
@@ -297,11 +506,12 @@
               "RelativeToolTip": "usuarios\\models.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:43:20.546Z"
+              "WhenOpened": "2025-05-11T17:43:20.546Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "models.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\models.py",
               "RelativeDocumentMoniker": "api\\models.py",
@@ -309,36 +519,12 @@
               "RelativeToolTip": "api\\models.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-08T08:04:26.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "settings.py",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\settings.py",
-              "RelativeDocumentMoniker": "SazonFI\\settings.py",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\settings.py",
-              "RelativeToolTip": "SazonFI\\settings.py",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-07T06:25:50.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "models.py",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\models.py",
-              "RelativeDocumentMoniker": "productos\\models.py",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\models.py",
-              "RelativeToolTip": "productos\\models.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:43:38.849Z",
+              "WhenOpened": "2025-05-08T08:04:26.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "productos.html",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\productos\\productos.html",
               "RelativeDocumentMoniker": "templates\\productos\\productos.html",
@@ -351,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "wsgi.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\SazonFI\\wsgi.py",
               "RelativeDocumentMoniker": "SazonFI\\wsgi.py",
@@ -359,11 +545,12 @@
               "RelativeToolTip": "SazonFI\\wsgi.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-12T07:49:01.98Z"
+              "WhenOpened": "2025-05-12T07:49:01.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "serializers.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\usuarios\\serializers.py",
               "RelativeDocumentMoniker": "usuarios\\serializers.py",
@@ -371,11 +558,12 @@
               "RelativeToolTip": "usuarios\\serializers.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T23:36:14.351Z"
+              "WhenOpened": "2025-05-11T23:36:14.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\static\\css\\style.css",
               "RelativeDocumentMoniker": "static\\css\\style.css",
@@ -383,11 +571,12 @@
               "RelativeToolTip": "static\\css\\style.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-11T18:17:24.772Z"
+              "WhenOpened": "2025-05-11T18:17:24.772Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "tasks.vs.json",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\.vs\\tasks.vs.json",
               "RelativeDocumentMoniker": ".vs\\tasks.vs.json",
@@ -395,11 +584,12 @@
               "RelativeToolTip": ".vs\\tasks.vs.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-11T19:05:28.403Z"
+              "WhenOpened": "2025-05-11T19:05:28.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "models.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\pedidos\\models.py",
               "RelativeDocumentMoniker": "pedidos\\models.py",
@@ -407,11 +597,12 @@
               "RelativeToolTip": "pedidos\\models.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:36:21.024Z"
+              "WhenOpened": "2025-05-11T17:36:21.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "tests.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\tests.py",
               "RelativeDocumentMoniker": "api\\tests.py",
@@ -419,11 +610,12 @@
               "RelativeToolTip": "api\\tests.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:25:55.54Z"
+              "WhenOpened": "2025-05-11T17:25:55.54Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 38,
               "Title": "admin.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\usuarios\\admin.py",
               "RelativeDocumentMoniker": "usuarios\\admin.py",
@@ -431,11 +623,12 @@
               "RelativeToolTip": "usuarios\\admin.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:08:40.914Z"
+              "WhenOpened": "2025-05-11T17:08:40.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "admin.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\negocios\\admin.py",
               "RelativeDocumentMoniker": "negocios\\admin.py",
@@ -443,11 +636,12 @@
               "RelativeToolTip": "negocios\\admin.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:08:29.999Z"
+              "WhenOpened": "2025-05-11T17:08:29.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "admin.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\pedidos\\admin.py",
               "RelativeDocumentMoniker": "pedidos\\admin.py",
@@ -455,11 +649,12 @@
               "RelativeToolTip": "pedidos\\admin.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:06:32.51Z"
+              "WhenOpened": "2025-05-11T17:06:32.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "admin.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\productos\\admin.py",
               "RelativeDocumentMoniker": "productos\\admin.py",
@@ -467,11 +662,12 @@
               "RelativeToolTip": "productos\\admin.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:05:15.669Z"
+              "WhenOpened": "2025-05-11T17:05:15.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "admin.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\admin.py",
               "RelativeDocumentMoniker": "api\\admin.py",
@@ -479,11 +675,12 @@
               "RelativeToolTip": "api\\admin.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-11T17:01:16.482Z"
+              "WhenOpened": "2025-05-11T17:01:16.482Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "apps.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\api\\apps.py",
               "RelativeDocumentMoniker": "api\\apps.py",
@@ -491,23 +688,12 @@
               "RelativeToolTip": "api\\apps.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-08T08:04:28.35Z"
+              "WhenOpened": "2025-05-08T08:04:28.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "cliente.html",
-              "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\cliente\\cliente.html",
-              "RelativeDocumentMoniker": "templates\\cliente\\cliente.html",
-              "ToolTip": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\templates\\cliente\\cliente.html",
-              "RelativeToolTip": "templates\\cliente\\cliente.html",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-08T07:58:04.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "views.py",
               "DocumentMoniker": "C:\\Users\\maxis\\OneDrive\\Documentos\\Escuela\\2025-2\\NEyDW\\ProyectoFinal\\SazonFI\\usuarios\\views.py",
               "RelativeDocumentMoniker": "usuarios\\views.py",
@@ -515,7 +701,8 @@
               "RelativeToolTip": "usuarios\\views.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-08T08:09:58.76Z"
+              "WhenOpened": "2025-05-08T08:09:58.76Z",
+              "EditorCaption": ""
             }
           ]
         }

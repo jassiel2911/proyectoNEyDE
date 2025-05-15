@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'productos',
     'pedidos',
     'api',
+    'carritos', 
 ]
 
 MIDDLEWARE = [
@@ -170,3 +171,7 @@ SESSION_SAVE_EVERY_REQUEST = False
 SESSION_COOKIE_SECURE = False  # Cambiar a True en producción (HTTPS)
 SESSION_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SAMESITE = 'Lax'  # O 'Strict' o 'None' si es necesario
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
