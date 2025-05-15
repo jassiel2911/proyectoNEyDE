@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\negocios",
-    "\\SazonFI",
-    "\\templates",
-    "\\templates\\carrito",
-    "\\templates\\cliente",
-    "\\templates\\negocio",
+    "\\carritos",
+    "\\media",
+    "\\media\\negocios",
+    "\\media\\negocios\\logos",
+    "\\media\\productos",
     "\\usuarios",
+    "\\usuarios\\migrations",
     "\\usuarios\\templates",
     "\\usuarios\\templates\\usuarios"
   ],
-  "SelectedNode": "\\db.sqlite3",
+  "SelectedNode": "\\SazonFI\\settings.py",
   "PreviewInSolutionExplorer": false
 }
